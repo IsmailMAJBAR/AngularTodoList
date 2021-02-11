@@ -1,27 +1,12 @@
 # AngularTodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+This project is a web app To do list
+This project was developped using Angular as front and listening on a json api that generate a todo tasks
+In this project one can also create its own To do as well as deleting and modifying the older one
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To test it out:
+- You need to have Nodejs installed.
+- After Downloading the code
+- run `npm install` to install dependencies
+- After installation done run `ng serve` to build the project
+- Open your browser and navigate to the localhost:4200 to check it out
