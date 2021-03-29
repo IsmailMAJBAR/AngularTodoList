@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ComponentInPastComponent } from './components/component-in-past/component-in-past.component';
+import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { ComponentInPastComponent } from './components/component-in-past/compone
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    IonicModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
