@@ -1,0 +1,108 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+# dependencies
+/node_modules
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+# System Files
+.DS_Store
+Thumbs.db
+*~
+*.sw[mnpcod]
+*.log
+*.lock
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+.idea/
+.vscode/
+.sass-cache/
+.versions/
+coverage/
+collection/
+dist/
+dist-transpiled/
+node_modules/
+tmp/
+temp/
+core/theme-builder/
+core/test-components/
+core/css/
+angular/css/
+$RECYCLE.BIN/
+UserInterfaceState.xcuserstate
+.env
+.package.tmp.json
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
+stats.json
+# demo stuff
+demos/node_modules
+demos/polyfills
+demos/css
+demos/fonts
+demos/src/**/*.js
+demos/src/**/*.map
+demos/src/**/*.ngfactory.ts
+demos/src/**/*.d.ts
+demos/src/**/*.metadata.json
+demos/src/**/*.css.shim.ts
+prerender.html
+prerender-domino.html
+prerender-hydrated.html
+prerender-static.html
+# stencil
+packages/react/css/
+packages/vue/css/
+core/components/
+core/hydrate/
+core/loader/
+core/www/
+.stencil/
+angular/build/
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+www/
+npm-debug.log*
+.firebase/
+.sourcemaps/
+.tmp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json

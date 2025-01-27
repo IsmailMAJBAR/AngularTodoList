@@ -1,0 +1,12 @@
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding:auto;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
